@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+/* basic styles in body */
+
+body{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* basic styles in main */
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+/* header starts here */
+
+#header{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+#nav-bar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+#nav-bar .first{
+    
+    width: 15%;
+
+}
+#header-img{
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+}
+#nav-bar ul{
+    
+    display: flex;
+    width: 63%;
+
+}
+
+/* list items are here */
+
+.nav-link{
+    list-style: none;
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+a:hover{
+    color: black;
+    background-color: #3DCFD3;
+    transition: .4s all ease;
+}
+#nav-bar .second{
+    
+    align-items: center;
+    
+}
+
+/* all buttons are styled here */
+
+.btn1{
+    background-color: teal;
+    color: white;
+    
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 15px;
+    border: none;
+}
+
+.btn1:hover{
+    background-color: #3DCFD3;
+    color: rgb(0, 37, 37);
+}
+
+/* search box design */
+#search-box{
+    width: 186px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* main content starts here */
+.landing{
+    width: 60%;
+    height: auto;
+    margin: 5% auto;
+    align-items: center;
+    display: flex;
+    
+}
+.landing .left{
+    width: 50%;
+    height: auto;
+}
+.landing .left h1{
+    font-size: 60px;
+}
+.landing .right{
+    
+    width: 50%;
+}
+.landing .right div{
+    width: fit-content;
+    height: fit-content;
+    margin: 1% auto 1% 60%;
+    padding: 1%;
+    background-color: white;
+}
+.landing .right div img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* footer starts here */
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: greenyellow;
+}
